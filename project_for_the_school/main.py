@@ -57,7 +57,8 @@ def test(message):
             wind = "По шкале Бофорта сейчас свежий ветер"
         elif 10.8 <= weather["wind"]['speed'] <= 13.8:
             wind = "По шкале Бофорта сейчас сильный ветер"
-
+        
+        # вывод данных пользователю
         bot.send_message(message.chat.id,
                          "В городе " + str(weather["name"]) + " температура: " + str(
                              int(weather["main"]['temp'])) + '°' + "\n" +
