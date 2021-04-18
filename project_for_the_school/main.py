@@ -1,4 +1,6 @@
-# импортируем необходимые библиотеки
+# для установки необходимых библиотек введите в консоль следующее: 
+# pip install telebot
+# pip install requests
 import requests
 import telebot
 # импортируем данные для работы бота
